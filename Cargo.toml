@@ -13,6 +13,6 @@ homepage = "https://github.com/marikka/roboclaw-rs"
 repository = "https://github.com/marikka/roboclaw-rs"
 
 [dependencies]
-serialport = "4.1.0"
+serialport = { version = "4.1.0", default-features = false }
 crc16 = "0.4.0"
 bitflags = "1.0.4"
